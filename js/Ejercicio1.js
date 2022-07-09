@@ -6,5 +6,5 @@ if(edad >= 18){
 }else if(edad < 18){
     document.write("No tines edad para conducir");
 }else{
-    document.write("No ingresaste un nummero valido")
+    document.write("No ingresaste un númmero valido")
 }
