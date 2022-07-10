@@ -1,8 +1,8 @@
 let letra = "";
-let numero = 0;
+let numero = 0
 
 do {
-    let numero = parseInt(prompt("Escribe tu DNI"));
+    let numero = parseInt(prompt("Escribe tu DNI, número por número"))
   if (numero >= 0 && numero <= 99999999) {
     numero = numero % 23
       switch (numero) {
@@ -97,9 +97,11 @@ do {
         case 22:
           document.write("E");
           break;
+          default:
+            alert("Número erroneo")
       }
   } else {
-    alert("Introduzca un número valido");
+    alert("Introduzca un número");
   }
 } while (confirm("Continuar"));
 
