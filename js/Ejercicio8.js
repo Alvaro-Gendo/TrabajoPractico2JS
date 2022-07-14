@@ -6,3 +6,5 @@ for(numero = 0; numero <= 50; numero++){
         document.write("<br>")
     
 }
+
+//no logre hacer que me tome el numero que el usuario ingresa
