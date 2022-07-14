@@ -13,7 +13,3 @@ for(numero = 1; numero <= 500; numero++){
     document.write(numero)
     document.write("<br>")
 }
-
-
-
-
